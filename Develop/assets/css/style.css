@@ -150,16 +150,16 @@ aside {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 900px) {
-
-    .header {
-        width: 46%;
-    }
+@media screen and (max-width: 1000px) {
 
     ul {
-      clear: left;
-      margin: 0;
-      padding: 0;
+        display: block;
+    }
+
+    li {
+        display: block;
+        float: left;
+        clear: left;
     }
     
 }
